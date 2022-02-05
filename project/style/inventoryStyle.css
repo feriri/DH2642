@@ -1,0 +1,84 @@
+.searchInv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hiddenInv{
+    display: none;
+}
+
+.disabled
+{
+    background-color: #DDD;
+    color: #999;
+}
+
+.addButton{
+    cursor:pointer;
+}
+
+.spanInventory {
+    float: left;
+    clear: left;
+}
+
+.instructionsInvTitle{
+    display:block;
+    text-align: left;
+    font-family: "Geneva";
+    font-size: 15px;
+    text-decoration: solid;
+    color: white;
+    background-color: #adc8d2;
+}
+.instructionsInvText{
+    display:block;
+    text-align: left;
+    font-family: "Geneva";
+    font-size: 12px;
+    background-color: #e8f0f2;
+}
+.instructionsInvTextLast{
+    display:block;
+    text-align: left;
+    font-family: "Geneva";
+    font-size: 12px;
+    background-color: #e8f0f2;
+    margin-bottom: 15px;
+}
+
+.instructionInv{
+    margin-top: 10px;
+}
+
+.styled-tableInv {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: "Geneva";
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-tableInv thead tr {
+    background-color: #adc8d2;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-tableInv th,
+.styled-tableInv td {
+    padding: 12px 15px;
+}
+
+.styled-tableInv tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+.styled-tableInv tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-tableInv tbody tr:last-of-type {
+    border-bottom: 2px solid #adc8d2;
+}

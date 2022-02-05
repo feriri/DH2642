@@ -1,0 +1,39 @@
+.table1 {
+    padding: 10px;
+    background-color: rgba(108, 62, 32, 0.1);
+    text-align: left;
+    font-family: "Geneva";
+    color: #ffffff;
+    border-collapse: separate;
+    -webkit-border-horizontal-spacing: 10px;
+}
+.button1 {
+    background-color: rgba(9, 1, 1, 0.4);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.table2 {
+    background-color: #9977be;
+    text-align: center;
+    font-family: "Marker Felt";
+    color: #13286c;
+}
+
+.buttontobuy a {
+    display: block;
+    width: 200px;
+    color: #6197c0;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttonclass {
+    margin: auto;
+    width: 70%;
+}

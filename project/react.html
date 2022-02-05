@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+        <script src="Config.js"></script>
+        <script src="js/recipeAPI.js"></script>
+        <script src="js/app.js" type="text/jsx"></script>
+        <script src="js/DrinkModel.js" type="text/jsx"></script>
+        <script src="js/View/inventoryView.js" type="text/jsx"></script>
+        <script src="js/View/addToInventoryView.js" type="text/jsx"></script>
+        <script src="js/View/detailsView.js" type="text/jsx"></script>
+        <script src="js/View/sidebarView.js" type="text/jsx"></script>
+        <script src="js/View/searchView.js" type="text/jsx"></script>
+        <script src="js/View/promiseNoData.js" type="text/jsx"></script>
+        <script src="reactjs/inventoryPresenter.js" type="text/jsx"></script>
+        <script src="reactjs/detailsPresenter.js" type="text/jsx"></script>
+        <script src="reactjs/sidebarPresenter.js" type="text/jsx"></script>
+        <script src="reactjs/searchPresenter.js" type="text/jsx"></script>
+        <script src="reactjs/shoppingListPresenter.js" type="text/jsx"></script>
+        <script src="js/View/shoppingListView.js" type="text/jsx"></script>
+
+        <script src="reactjs/showPresenter.js" type="text/jsx"></script>
+        <script src="reactjs/modelProp.js" type="text/jsx"></script>
+        <script src="reactjs/usePromise.js" type="text/jsx"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js"></script>
+        <script src="js/firebaseConfig.js"></script>
+        
+        <script src="js/firebaseModel.js"></script>
+        
+
+        <link rel="stylesheet" href="appStyle.css">
+        <link rel="stylesheet" href="detailsStyle.css">
+        <link rel="stylesheet" href="sidebarStyle.css">
+        <link rel="stylesheet" href="searchStyle.css">
+         <link rel="stylesheet" href="shoppingStyle.css">
+         <link rel="stylesheet" href="popup.css">
+
+         <link rel="stylesheet" href="inventoryStyle.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <body>
+        <div id="app"></div>
+        </body>
+        <script>
+          
+            const h = React.createElement; 
+         
+         </script>
+
+        <script type="text/jsx">
+            const model = new DrinkModel();
+            persistModel(model);
+            firebase.database().ref(REF).once("value").then(
+                ()=> ReactDOM.render(<App model={model}/>, document.getElementById("app")));
+        </script>
+</html>

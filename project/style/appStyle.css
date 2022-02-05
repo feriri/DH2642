@@ -1,0 +1,83 @@
+/*.img {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/abfbb793-2801-49f3-b9fd-90708035c1f0/d7zcwt3-340f8c02-67bc-4d9e-82f0-5e79c9e0f8b4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiZmJiNzkzLTI4MDEtNDlmMy1iOWZkLTkwNzA4MDM1YzFmMFwvZDd6Y3d0My0zNDBmOGMwMi02N2JjLTRkOWUtODJmMC01ZTc5YzllMGY4YjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.AjSfHyGX3nVyjRPYnl6TiBxYFfLWWFnMWBT4qejwb94");
+    min-height: 310px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}*/
+
+
+.flexParent {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.sidebar {
+    width: 400px;
+    height: 920px;
+    border: none;
+    margin-right: 0.4rem;
+    padding-right: 0.4rem;
+    background-image: linear-gradient(to bottom, rgba(215, 202, 201, 0.54),  rgba(107, 34, 32, 0.54)), url("https://images.unsplash.com/photo-1543007630-9710e4a00a20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+}
+.search {
+    align-items: stretch;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    height: 520px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+@media (max-width: 900px) {
+    .flexParent{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sidebar{
+        height: auto;
+        margin-bottom: 1%;
+    }
+    /* .detailsView{
+
+    }
+    .searchDetails{
+        display:flex;
+        flex-direction: row;
+    } */
+   
+}
+
+.container {
+    position: center;
+    width: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(107, 34, 32, 0.54);
+}
+
+.topnav a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #717a94;
+}
+

@@ -1,0 +1,74 @@
+.detailsView{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    
+}
+.rightSide{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.drinkList{
+    list-style-type: disc;
+    align-content: center;
+    font-size: 16px;   
+}
+.listHeader{
+    font-size: 19px;
+}
+@media (max-width: 1150px){
+    .detailsView{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.leftSide{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(241, 241, 241);
+
+    /* padding: 10px; */
+
+}
+.drinkLabel{
+    display: inline-block;
+    font-size: 21px;
+    width: 300px;
+    height: auto;
+}
+.drinksAdd{
+    min-width: 120px;
+}
+.drinkIngredients{
+    margin-top: 30px;
+    margin-right:7px;
+    width: auto;
+    min-width: 100px;
+    height:20px;
+}
+
+.drinkInstructions{
+    width: 250px;
+    height: auto;
+}
+
+.imageDetails{
+    width: 380px;
+    height: 300px;
+    border-radius: 8px;
+}
+.recGlass{
+    width: 300px;
+    font-size: 15px;
+}
+
+.buttonup{
+    margin-top: 18px;
+    /* margin-left:18px; */
+}
